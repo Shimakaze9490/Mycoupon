@@ -1,0 +1,104 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.tabs {
+	list-style: none;
+}
+
+.tabs li {
+	float: left;
+	width: 33%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	/*cursor: pointer;*/
+}
+
+
+/*选中的标签*/
+
+.active {
+	color: red;
+}
+
+.Maincontent {
+	width: 90%;
+	margin: 0px auto;
+	margin-top: 10px;
+	/*margin-left:10px;
+				margin-right:10px;*/
+	list-style: none;
+}
+
+.items {
+	margin-bottom: 20px;
+}
+
+.mainc {
+	margin-bottom: 10px;
+}
+.hide{
+	display: none;
+}
+
+.cuts {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.2rem;
+}
+
+/*折扣券*/
+.stamp {
+	/*控制券整体大小*/
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 10px;
+	text-align: center;
+	/*border:solid 1px red;*/
+	box-sizing: border-box;
+	position: relative;
+	background-color: #FFA908;
+	color: #FFF;
+	font-size: 1.6rem;
+	border-radius: 6px;
+}
+
+
+/*二维码*/
+
+.embs {
+	width: 30px;
+	height: 30px;
+	color: red;
+}
+
+.embx {
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/*说明,文字*/
+
+.illu {
+	color: #BBB;
+	font-size: 0.8rem;
+	height: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+
+.pots {
+	float: right;
+	margin-right: 1.2rem;
+}
+
+.pots a:link {
+	font-size: 0.8rem;
+	color: #737373;
+	text-decoration: none;
+}
